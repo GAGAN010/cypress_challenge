@@ -1,0 +1,42 @@
+{
+  "name": "cypres-plutora-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node cypress/support/cucumber.js",
+    "generate:cucumber:report": "npm run-script build",
+    "cy:open:api":"npx cypress open --config-file cypress-api-config.json",
+    "cy:open:ui":"npx cypress open --config-file cypress-ui-config.json",
+    "cy:run:api":"npx cypress run --config-file cypress-api-config.json",
+    "cy:run:ui":"npx cypress run --config-file cypress-ui-config.json"
+  },
+  "author": "GC",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.0",
+    "tsify": "^5.0.4"
+  },
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.1",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "@types/node": "^16.6.2",
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^5.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "node-gyp": "^8.1.0",
+    "tsify": "^4.0.1",
+    "typescript": "^4.3.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "overwrite": false,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

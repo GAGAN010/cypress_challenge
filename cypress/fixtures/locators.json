@@ -1,0 +1,38 @@
+{
+    "locator":
+    {
+        "login":"#login2",
+        "home":".active > .nav-link",
+        "signUp":"#signin2",
+        "signUpuserName":"#sign-username",
+        "signPassword":"#sign-password",
+        "signUpButton":"#signInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary",
+        "signUpModalLabel":"#signInModalLabel",
+        "signUpModal":"#signInModal > .modal-dialog > .modal-content > .modal-body",
+        "loginButton":"#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary",
+        "loginUserName":"#loginusername",
+        "loginPassword":"#loginpassword",
+        "loginModalLabel":"#logInModalLabel",
+        "loginModal":"#logInModal>div",
+        "nameofUser":"#nameofuser",
+        "cart":"#cartur",
+        "samsungPhone":":nth-child(1) > .card > .card-block > .card-title",
+        "nokiaPhone":"#tbodyid > :nth-child(2)",
+        "nexusPhone":"#tbodyid > :nth-child(1)",
+        "addtoCartButton":".col-sm-12 > .btn",
+        "deleteCartItem":"#tbodyid > :nth-child(1) > :nth-child(4) > a",
+        "placeOrder":".col-lg-1 > .btn",
+        "placeOrderModalName":"#name",
+        "placeOrderModalcountry":"#country",
+        "placeOrderModalcity":"#city",
+        "placeOrderModalcard":"#card",
+        "placeOrderModalmonth":"#month",
+        "placeOrderModalyear":"#year",
+        "purchasebutton":"#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary",
+        "categories":"#cat",
+        "alertModalMsg" :".sweet-alert > h2",
+        "purchaseModalConfimbutton":".confirm"
+
+    }
+}
+       

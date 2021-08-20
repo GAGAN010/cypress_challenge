@@ -1,0 +1,482 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cart and Purchase",
+    "line": 1,
+    "id": "cart-and-purchase",
+    "tags": [],
+    "uri": "cart-purchase.feature",
+    "elements": [
+      {
+        "id": "cart-and-purchase;add-items-to-cart-and-successful-purchase",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Add Items to Cart and Successful purchase",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the site \"index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 2265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the element \"login\"",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I expect that element \"loginModal\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I expect that element \"loginModalLabel\" have the text \"Log in\"",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I enter \"TestUser3011921121\" to the inputfield \"loginUserName\"",
+            "result": {
+              "status": "passed",
+              "duration": 917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter \"TestUser30119\" to the inputfield \"loginPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the element \"loginButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I expect that element \"nameofUser\" have the text \"Welcome TestUser3011921121\"",
+            "result": {
+              "status": "passed",
+              "duration": 1878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I click on the element \"samsungPhone\"",
+            "result": {
+              "status": "passed",
+              "duration": 754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on the element \"addtoCartButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 1154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click on the element \"cart\"",
+            "result": {
+              "status": "passed",
+              "duration": 848000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-and-purchase;change-items-from-the-cart",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Change Items from the cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the site \"index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the element \"login\"",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I expect that element \"loginModal\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I expect that element \"loginModalLabel\" have the text \"Log in\"",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I enter \"TestUser3011921121\" to the inputfield \"loginUserName\"",
+            "result": {
+              "status": "passed",
+              "duration": 872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter \"TestUser30119\" to the inputfield \"loginPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the element \"loginButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I expect that element \"nameofUser\" have the text \"Welcome TestUser3011921121\"",
+            "result": {
+              "status": "passed",
+              "duration": 2665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I click on the element \"cart\"",
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on the element \"deleteCartItem\"",
+            "result": {
+              "status": "passed",
+              "duration": 2216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on the element \"home\"",
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I expect that element \"categories\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click on the element \"nokiaPhone\"",
+            "result": {
+              "status": "passed",
+              "duration": 1363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I click on the element \"addtoCartButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 576000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cart-and-purchase;purchase-item-in-the-cart",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Purchase item in the cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the site \"index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the element \"login\"",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I expect that element \"loginModal\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I expect that element \"loginModalLabel\" have the text \"Log in\"",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I enter \"TestUser3011921121\" to the inputfield \"loginUserName\"",
+            "result": {
+              "status": "passed",
+              "duration": 871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter \"TestUser30119\" to the inputfield \"loginPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 816000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the element \"loginButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I expect that element \"nameofUser\" have the text \"Welcome TestUser3011921121\"",
+            "result": {
+              "status": "passed",
+              "duration": 3458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on the element \"cart\"",
+            "result": {
+              "status": "passed",
+              "duration": 915000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I click on the element \"placeOrder\"",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I enter \"TestBuy\" to the inputfield \"placeOrderModalName\"",
+            "result": {
+              "status": "passed",
+              "duration": 750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I enter \"Australia\" to the inputfield \"placeOrderModalcountry\"",
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I enter \"Melbourne\" to the inputfield \"placeOrderModalcity\"",
+            "result": {
+              "status": "passed",
+              "duration": 765000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I enter \"1232312312232323\" to the inputfield \"placeOrderModalcard\"",
+            "result": {
+              "status": "passed",
+              "duration": 851000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I enter \"02\" to the inputfield \"placeOrderModalmonth\"",
+            "result": {
+              "status": "passed",
+              "duration": 685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I enter \"22\" to the inputfield \"placeOrderModalyear\"",
+            "result": {
+              "status": "passed",
+              "duration": 688000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I click on the element \"purchasebutton\"",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I expect that element \"alertModalMsg\" have the text \"Thank you for your purchase!\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I click on the element \"purchaseModalConfimbutton\"",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

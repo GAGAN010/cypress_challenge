@@ -1,0 +1,282 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "line": 1,
+    "id": "login-feature",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-feature;signup-test",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "SignUp test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the site \"index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 1920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the element \"signUp\"",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I expect that element \"signUpModal\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I expect that element \"signUpModalLabel\" have the text \"Sign up\"",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I enter \"TestUser30119211132\" to the inputfield \"signUpuserName\"",
+            "result": {
+              "status": "passed",
+              "duration": 905000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter \"TestUser30119\" to the inputfield \"signPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the element \"signUpButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I expect that window alert have the text \"This user already exist.\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;signup-test",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "SignUp test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the site \"index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 413000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the element \"signUp\"",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I expect that element \"signUpModal\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I expect that element \"signUpModalLabel\" have the text \"Sign up\"",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I enter \"TestUser3011921121\" to the inputfield \"signUpuserName\"",
+            "result": {
+              "status": "passed",
+              "duration": 878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter \"TestUser30119\" to the inputfield \"signPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on the element \"signUpButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I expect that window alert have the text \"Sign up successful.\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;login-test---success",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login Test - Success",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I open the site \"index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on the element \"login\"",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I expect that element \"loginModal\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I expect that element \"loginModalLabel\" have the text \"Log in\"",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I enter \"TestUser3011921121\" to the inputfield \"loginUserName\"",
+            "result": {
+              "status": "passed",
+              "duration": 871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I enter \"TestUser30119\" to the inputfield \"loginPassword\"",
+            "result": {
+              "status": "passed",
+              "duration": 817000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click on the element \"loginButton\"",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I expect that element \"nameofUser\" have the text \"Welcome TestUser3011921121\"",
+            "result": {
+              "status": "passed",
+              "duration": 2446000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

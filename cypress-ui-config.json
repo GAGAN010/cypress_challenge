@@ -1,0 +1,5 @@
+{
+  "extends": "./cypress.json",
+  "baseUrl": "https://www.demoblaze.com/",
+  "testFiles": "**/ui/*.feature"
+}

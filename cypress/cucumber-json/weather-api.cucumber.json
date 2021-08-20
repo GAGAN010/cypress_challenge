@@ -1,0 +1,222 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register Station Positive",
+    "line": 1,
+    "id": "register-station-positive",
+    "tags": [],
+    "uri": "weather-api.feature",
+    "elements": [
+      {
+        "id": "register-station-positive;validate-an-attempt-to-register-a-weather-station",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validate an attempt to register a weather station",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I post the \"/samplerequest\" to \"/stations\" using \"21af2e8cd45ce60ed8d5be73de452089\" and record response \"registerStationSuccess\"",
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response code is \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I write response body captured in \"@registerStationSuccess\" to a \"sampleresponse\" file",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response body contains \"sampleresponse\"",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-station-positive;verify-that-the-stations-were-successfully-stored-in-the-db",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify that the stations were successfully stored in the DB",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I get \"/stations/611f2b6409e7430001b9faf1\" using \"21af2e8cd45ce60ed8d5be73de452089\" and record response \"getresp\"",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I verify that for sent request \"@getresp\" HTTP response code is \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I verify that for sent request \"@getresp\" HTTP response body contains \"sampleresponse_get\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-station-positive;validate-an-attempt-to-register-a-weather-station--invalid-scenarios",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Validate an attempt to register a weather station -Invalid Scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I post the \"/samplerequest\" to \"/stations\" using \"\" and record response \"registerStationSuccess\"",
+            "result": {
+              "status": "passed",
+              "duration": 782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response code is \"401\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response body contains \"unauthorised\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-station-positive;validate-an-attempt-to-register-a-weather-station--invalid-scenarios",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Validate an attempt to register a weather station -Invalid Scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I post the \"/samplerequest\" to \"/stations/123213\" using \"21af2e8cd45ce60ed8d5be73de452089\" and record response \"registerStationSuccess\"",
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response code is \"405\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response body contains \"notfound\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-station-positive;validate-an-attempt-to-register-a-weather-station--invalid-scenarios",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Validate an attempt to register a weather station -Invalid Scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I post the \"/wrongbodypost\" to \"/stations\" using \"21af2e8cd45ce60ed8d5be73de452089\" and record response \"registerStationSuccess\"",
+            "result": {
+              "status": "passed",
+              "duration": 702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response code is \"400\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I verify that for sent request \"@registerStationSuccess\" HTTP response body contains \"error-400\"",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
